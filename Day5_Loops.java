@@ -7,6 +7,21 @@ public class Day5_Loops {
             System.out.println(i);
             i++; // incrementation
         }
+
+        System.out.println("\nDO WHILE LOOP");
+
+        int r=11;
+        do {
+            System.out.println(r);
+            r++;
+        } while(r<=10);
+
+        System.out.println("\nFOR LOOP");
+
+
+        for(int y=15; y>=0; y--) {
+            System.out.println(y);
+        }
           
     }
 }
