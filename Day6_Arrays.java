@@ -16,13 +16,30 @@ public class Day6_Arrays {
 
         System.out.println(Arrays.toString(j));
 
-        System.out.println("The length of the Array of Method 2 is : " + j.length);
+        System.out.println("\nThe length of the Array of Method 2 is : " + j.length);
         
         System.out.println("\nPRINTING NUMBERS IN ARRAY USING FOR LOOP");
+        // DECLARE AN ARRAY
         int b[] = {817,91,635,523,76,1675,15654,16};
 
+        System.out.println("\nREADING SINGLE VALUE FROM ARRAY");
+        // READ SINGLE VALUE FROM ARRAY
+        for(int value:b) {
+            System.out.println(b[4]);
+        }
+
+
+        System.out.println("\nREADING MULTIPLE VALUES FROM ARRAY");
+
+        // READ MULTIPLE VALUES FROM ARRAY
         for(int z=0; z<b.length; z++) {
             System.out.println(b[z]);
-        }
-    }
+
+             }
+             
+        System.out.println("\nFIND LENGTH / SIZE OF AN ARRAY");
+        System.out.println(b.length);
+       
+    
+            }
 }
