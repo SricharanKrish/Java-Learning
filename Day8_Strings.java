@@ -21,7 +21,14 @@ public class Day8_Strings {
 
         String z1 = z.trim();
         System.out.println("After removing spaces " + z1);
-
+        
+        System.out.println("\nRemove spaces between strings aka Trim function");
+        
+        String r = "     Hello     ";
+        System.out.println("Before Trim " + r);
+        
+        String r1 = r.trim();
+        System.out.println("After using Trim " + r1);
         
     }
 }
