@@ -65,5 +65,44 @@ public class Day8_Strings {
         System.out.println(e.substring(2, 5));
         // characters between 2 and 5 will be retrieved
     
+        System.out.println("\nTo change String to Uppercase or Lowercase");
+        
+        
+        String u = "sri";
+        String u1 = "MESSI";
+        
+        System.out.println("Converting String to Uppercase " + u.toUpperCase());
+    
+        System.out.println("Converting String to Lowercase " + u1.toLowerCase());
+        
+        System.out.println("\nTo split or divide a String");
+        
+        String s4 = "CANYOUHEARMEPLEASETELL ME?";
+        
+        String split [] = s4.split("YOU");
+        System.out.println(split[0]);
+        System.out.println(split[1]);
+        
+        String amount = "$15,20,55";
+        
+        //String split1 [] = amount.split("$");
+        String split1 [] = amount.split("\\$");
+        
+        System.out.println(split1[1]);
+        
+        // split1[0] = everything before the $ = "" (empty string, 
+        //since $ is at the start)
+    	//split1[1] = everything after the $ = "15,20,55"
+     
+        
+        System.out.println("\nReplace function");
+        
+        String amount1 = "$16,28,91";
+        
+        System.out.println(amount1.replace("$", "").replace(",", ""));
+        
+        String ex = "abc,123@xyz";
+        
+        System.out.println(ex.replace("@", ""));
     }
 }
