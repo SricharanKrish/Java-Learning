@@ -1,4 +1,4 @@
-public class Day8_Strings {
+public class Day08_Strings {
     
     public static void main(String[] args) {
         

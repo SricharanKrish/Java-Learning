@@ -1,5 +1,5 @@
 
-public class Day9_OopsConcept {
+public class Day09_OopsConcept {
 	
 	// Variables
 	
@@ -18,7 +18,7 @@ public class Day9_OopsConcept {
 	
 	
 	public static void main(String[] args) {
-		Day9_OopsConcept a = new Day9_OopsConcept();
+		Day09_OopsConcept a = new Day09_OopsConcept();
 		
 		a.eid=10019;
 		a.ename = "Batman";

@@ -1,4 +1,4 @@
-public class Day3_Operators {
+public class Day03_Operators {
     
     public static void main(String[] args) {
 

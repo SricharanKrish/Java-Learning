@@ -1,4 +1,4 @@
-public class Day5_Loops {
+public class Day05_Loops {
     public static void main(String[] args) {
         System.out.println("WHILE LOOP");
 

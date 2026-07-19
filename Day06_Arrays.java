@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Day6_Arrays {
+public class Day06_Arrays {
     public static void main(String[] args) {
         
         System.out.println("WAYS WE CAN DECLARE ARRAYS - METHOD 1");

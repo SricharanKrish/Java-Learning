@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day7_ArraysPartTwo {
+public class Day07_ArraysPartTwo {
     public static void main(String[] args) {
 
         System.out.println("USING SCANNER TO TAKE INPUT AT RUNTIME INSTEAD OF HARDCODING INPUT IN CODE");

@@ -1,4 +1,4 @@
-public class Day4_ConditionalStatements {
+public class Day04_ConditionalStatements {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day8_StringsPart2 {
+public class Day08_StringsPart2 {
 	
 	public static void main(String[] args) {
 		

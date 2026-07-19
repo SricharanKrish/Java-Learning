@@ -1,4 +1,4 @@
-public class Day6_TwoDArrays {
+public class Day06_TwoDArrays {
     
     public static void main(String args[]) {
 

@@ -1,4 +1,4 @@
-public class Day2_VariablesDataTypes {
+public class Day02_VariablesDataTypes {
 
     public static void main(String[] args) {
 

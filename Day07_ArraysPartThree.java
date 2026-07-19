@@ -1,4 +1,4 @@
-public class Day7_ArraysPartThree {
+public class Day07_ArraysPartThree {
     
     public static void main(String args []) {
 
