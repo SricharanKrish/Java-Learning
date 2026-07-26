@@ -1,0 +1,16 @@
+PUSH THIS TO GITHUB WITH COMMENT PLACES WHERE I HAVE STRUGGLED
+1. TERNARY OPERATOR. DID NOT UNDERSTAND HOW TO IMPLEMENT THIS LOGIC BEFORE CHATGPT EXPLAINED CLEARLY
+
+2. NESTED IF - DIDNT KNOW ELSE CAN BE USED.. IT JUST NEEDS IF INSIDE AN IF
+
+3. CONTINUE AND BREAK.. NOT SURE WHERE TO USE PRINT STATEMENTS
+   FOR EXAMPLE PRACTICE DAY 4 - 73 TO 78 LINES. STRUGGLED WITH WHERE TO WRITE LINE 73, 75 PRINT STATEMENTS FIRST
+   FOR EXAMPLE PRACTICE DAY 4 - 82 TO 86 LINES. STRUGGLED WITH WHERE TO WRITE LINE 86 PRINT STATEMENTS FIRST
+   IN Practice_Day05 PROGRAM 22 - 26 LINES. STRUGGLED WITH WHERE TO WRITE LINE 23 PRINT STATEMENT AT FIRST
+  
+4. "Which line belongs to the loop and which belongs to the condition?" 
+	For example if condition inside for loop problems.. struggle with implementing print statements in few problems.. where should the print statement go when it has to be at top or outside the condition / loop?
+	
+5. Struggled with remembering loops syntax?
+
+6. 
