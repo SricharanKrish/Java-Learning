@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Practicing_Notes {
     public static void main(String[] args) {
         int a=19;
@@ -27,8 +29,37 @@ public class Practicing_Notes {
                 System.out.println("First even badge divisble by 5 : "+badge);
             }
         }
-            
+        
+        int arr[] = {61,87,197,153,37,18,910};
+        
+        System.out.println("\nPrinting all numbers from an Array: "+Arrays.toString(arr));
+        
+        System.out.println("\nPrinting a single value from an Array: ");
+        for(int m:arr) {
+        	System.out.println(arr[2]);//197
+        	break; // is break the only way here to stop it printing 197 multiple times?
         }
+        
+        System.out.println("\nTo find the length of an Array : "+arr.length);
+        Arrays.sort(arr);
+        System.out.println("\nTo sort an Array :"+Arrays.toString(arr));
+        
+        int max=arr[0];
+        for(int n:arr) {
+        	if(n>max) {
+        		max=n;
+        		
+        	}
+        }
+        System.out.println("\nThe highest number is: "+max);
+    
+        int total=0;
+        for(int nz:arr) {
+        	total = total+nz;
+        }
+        System.out.println("\nSum of all number in arr is : "+total);
     }
+    
+ }
 
     

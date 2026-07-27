@@ -19,3 +19,30 @@ PUSH THIS TO GITHUB WITH COMMENT PLACES WHERE I HAVE STRUGGLED
 
 7. Struggled with array sort syntax, finding highest, lowest numbers in an array.
 
+8. Didn't understand there is an index difference between normal for loop and enhanced for loop
+for enhanced for loop,java does this in the background
+for (int i = 0; i < arr.length; i++) {
+
+    int n = arr[i];
+
+    // your code
+
+}
+
+9. Didn't know where to write print statement here. Put print statement inside loop at first
+ int max=arr[0];
+        for(int n:arr) {
+        	if(n>max) {
+        		max=n;
+        		
+        	}
+        }
+        System.out.println("\nThe highest number is: "+max);
+        
+ CHATGPT RECOMMENDATION FOR 3,4 AND 9
+ Whenever you're unsure where to place a statement, ask that first. If the answer is:
+
+Every iteration → put it in the loop (outside any conditional).
+Only for certain values → put it inside the relevant if.
+Once after processing everything → put it after the loop.
+    
