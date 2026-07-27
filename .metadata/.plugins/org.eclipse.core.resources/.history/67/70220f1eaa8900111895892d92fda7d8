@@ -1,0 +1,58 @@
+import java.util.Arrays;
+
+public class Practicing_Notes {
+    public static void main(String[] args) {
+        int a=19;
+        int b=21;
+
+        System.out.println("Ternary operator simple :");
+
+        int c=(b>a)? a:b; // valueiftrue : valueiffalse.. condition is true so c will be 19 because i gave a:b
+        System.out.println(c);
+
+        int x=98;
+        int y=98;
+         int z=(x>y)? x:y; // both values are same but x>y is false so y will be printed.. with string we can see clearly.. with int we just believe y 98 is printed
+         String z1=(x>y)? "Hello":"Amigo"; // condition false.. so amigo should be printed
+         System.out.println("\nTernary operator when both values are same : "+z);
+         System.out.println("\nTernary operator when both values are same but we use string to find which value is printed : "+z1);
+        
+        System.out.println("\nMoving to continue and break");
+
+        for(int badge=300;badge<=340;badge++){
+            if(badge%2!=0){
+                continue;
+                }
+                System.out.println("Checking badge "+badge);
+            
+                if(badge%2==0 && badge%5==0) {
+                System.out.println("First even badge divisble by 5 : "+badge);
+            }
+        }
+        
+        int arr[] = {61,87,197,153,37,18,910};
+        
+        System.out.println("\nPrinting all numbers from an Array: "+Arrays.toString(arr));
+        
+        System.out.println("\nPrinting a single value from an Array: ");
+        for(int m:arr) {
+        	System.out.println(arr[2]);//197
+        	break; // is break the only way here to stop it printing 197 multiple times?
+        }
+        
+        System.out.println("\nTo find the length of an Array : "+arr.length);
+        Arrays.sort(arr);
+        System.out.println("\nTo sort an Array :"+Arrays.toString(arr));
+        
+        int max=arr[0];
+        for(int n:arr) {
+        	if(n>max) {
+        		max=n;
+        		
+        	}
+        	System.out.println("\nThe highest number is: "+max);
+        }
+    }
+ }
+
+    

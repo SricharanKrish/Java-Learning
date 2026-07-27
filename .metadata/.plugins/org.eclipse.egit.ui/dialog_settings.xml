@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/SricharanKrish/Java-Learning.git"/>
+	</list>
 	<section name="GitImportWizard">
 		<section name="GitImportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="20"/>

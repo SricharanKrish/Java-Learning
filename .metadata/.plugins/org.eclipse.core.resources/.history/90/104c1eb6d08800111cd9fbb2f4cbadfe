@@ -1,9 +1,0 @@
-import java.util.Arrays;
-
-public class Practice_Day06 {
-		public static void main(String[] args) {
-			
-			int marks[] = {85,91,76,88,95};
-			System.out.println("The marks are : " + Arrays.toString(marks));
-		}
-}
