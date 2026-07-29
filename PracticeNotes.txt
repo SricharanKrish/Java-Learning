@@ -29,6 +29,110 @@ for (int i = 0; i < arr.length; i++) {
 
 }
 
+You're very close. The problem is that you're mixing up **enhanced for loop** syntax with a normal `for` loop.
+
+In this loop:
+
+```java
+for(int n : arr)
+```
+
+`n` is **the value**, **not the index**.
+
+For example, if
+
+```java
+int[] arr = {10, 25, 40, 5};
+```
+
+then the loop runs like this:
+
+| Iteration | n  |
+| --------- | -- |
+| 1         | 10 |
+| 2         | 25 |
+| 3         | 40 |
+| 4         | 5  |
+
+But inside your loop you wrote:
+
+```java
+if(arr[n] > max)
+```
+
+On the first iteration Java tries to do:
+
+```java
+arr[10]
+```
+
+There is no index 10 (valid indexes are 0,1,2,3), so you'll get an `ArrayIndexOutOfBoundsException`.
+
+### Correct enhanced for loop
+
+Since `n` **is already the value**, compare it directly:
+
+```java
+int max = arr[0];
+
+for (int n : arr) {
+    if (n > max) {
+        max = n;
+    }
+}
+
+System.out.println("The highest number is: " + max);
+```
+
+### Or use the normal for loop (with indexes)
+
+```java
+int max = arr[0];
+
+for (int i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
+        max = arr[i];
+    }
+}
+
+System.out.println("The highest number is: " + max);
+```
+
+---
+
+### A simple rule to remember
+
+**Normal `for` loop**
+
+```java
+for (int i = 0; i < arr.length; i++)
+```
+
+* `i` = index
+* Use `arr[i]`
+
+**Enhanced `for` loop**
+
+```java
+for (int n : arr)
+```
+
+* `n` = value
+* Use `n`
+* ❌ Don't write `arr[n]`
+
+---
+
+Since you're learning Java, here's a memory trick:
+
+> **`i` = "where" (index/position)**
+> **`n` = "what" (the actual number/value)**
+
+That distinction will help with arrays, `ArrayList`, and collections throughout Java.
+
+
+
+
 9. Didn't know where to write print statement here. Put print statement inside loop at first
  int max=arr[0];
         for(int n:arr) {
@@ -46,3 +150,4 @@ Every iteration → put it in the loop (outside any conditional).
 Only for certain values → put it inside the relevant if.
 Once after processing everything → put it after the loop.
     
+
