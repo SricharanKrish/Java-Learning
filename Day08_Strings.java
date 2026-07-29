@@ -37,7 +37,7 @@ public class Day08_Strings {
         
         System.out.println(zj.charAt(3));
         
-        System.out.println("\nTo check if a String contains something. For example if a characters are present in String");
+        System.out.println("\nTo check if a String contains something. For example if certain phrases or characters are present in String");
         
         String rq = "HolaAmigo";
         
