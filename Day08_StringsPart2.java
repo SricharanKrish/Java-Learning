@@ -45,7 +45,7 @@ public class Day08_StringsPart2 {
 		StringBuffer g = new StringBuffer("\nLost");
 		g.append("Myself");
 		System.out.println("\nStringbuffer is Mutable, it changes original value as well: " + g);
-	
+
 		
 	}
 	

@@ -109,7 +109,14 @@ public class Kuttystory {
 	System.out.println(z2!=z1); // checks if both are NOT EQUAL - true
 
 	// LOGICAL OPERATORS
+	// IS VEGETABLES AND RICE BOTH COOKED.. CHECKING LOGIC OF COOKING STATUS
 	
+	boolean isVegReady = true;
+	boolean isRiceReady = false;
+	
+	System.out.println(isVegReady && isRiceReady); // && - AND WILL ONLY RETURN TRUE when both conditions are true
+	System.out.println(isVegReady || isRiceReady); // || - OR WILL RETURN TRUE WHEN ONE CONDITION IS TRUE
+	System.out.println(!isVegReady); // NOT   will return the opposite what's currently assigned
 	
 	
 	// NEXT VANDHU CONDITIONS PA
@@ -170,3 +177,191 @@ public class Kuttystory {
 		default : System.out.println("Ada po pa");
 
 }
+
+	// NEXT IS LOOPS
+	// YOU HAVE 5 GUESTS WHO HAVE BROUGHT POTLUCK LUNCH.. YOU NEED TO CARRY ALL 5 ITEMS TO THE TABLE
+	// TO DO THIS, YOU WILL MAKE 5 TRIPS FROM HALL TO TABLE.
+	// ORU VISHYATHA AGAIN AND AGAIN REPEAT PANANUM NA, WE USE LOOPS
+	
+	// LOOPS LA WE HAVE FOR, WHILE, DO WHILE LOOPS
+	
+	for(int f1=1; f1<=10l f1++){
+		System.out.println(f1);
+}
+
+	int w1=1;
+		while(w1<10) {
+			System.out.println(w1);
+			w1++;
+}
+
+	// for and while works the same way but learn the difference on where to use it in more complex problems
+	
+	// DO..WHILE.. prints once even if condition is false
+	// AFTER TAKING 5TH PLATE TO THE TABLE, GOES BACK TO HALL TO RECHECK ONCE THAT PLATES HAVE BEEN BROUGHT
+	
+	int w2=10;
+		do {
+			System.out.println(w2);
+			w2++;
+		} while(w2<10);
+	
+
+String methods
+
+
+| Function                | Simple meaning                                          |
+| ----------------------- | ------------------------------------------------------- |
+| `length()`              | Number of characters in the string.                     |
+| `charAt(index)`         | Gets one character at a position.                       |
+| `substring(start)`      | Gets part of a string from a position.                  |
+| `substring(start, end)` | Gets part of a string between two positions.            |
+| `equals()`              | Checks if two strings have exactly the same text.       |
+| `equalsIgnoreCase()`    | Same as `equals()` but ignores uppercase/lowercase.     |
+| `contains()`            | Checks if a word or character exists inside the string. |
+| `startsWith()`          | Checks whether the string begins with something.        |
+| `endsWith()`            | Checks whether the string ends with something.          |
+| `replace()`             | Replaces characters or words.                           |
+| `trim()`                | Removes spaces from the beginning and end.              |
+| `toUpperCase()`         | Converts everything to uppercase.                       |
+| `toLowerCase()`         | Converts everything to lowercase.                       |
+| `split()`               | Breaks one string into many strings.                    |
+| `concat()`              | Joins two strings together.                             |
+| `isEmpty()`             | Checks if the string has zero characters.               |
+| `indexOf()`             | Finds the first position of something.                  |
+| `lastIndexOf()`         | Finds the last position of something.                   |
+
+
+| Function                | Meaning                                                |
+| ----------------------- | ------------------------------------------------------ |
+| `isBlank()`             | Checks if string is empty or only spaces. *(Java 11+)* |
+| `strip()`               | Removes Unicode spaces.                                |
+| `stripLeading()`        | Removes spaces only from the start.                    |
+| `stripTrailing()`       | Removes spaces only from the end.                      |
+| `repeat(n)`             | Repeats the string n times.                            |
+| `compareTo()`           | Compares two strings alphabetically.                   |
+| `compareToIgnoreCase()` | Same but ignores case.                                 |
+| `matches(regex)`        | Checks if the string matches a regex pattern.          |
+
+| Function          | Meaning                                   |
+| ----------------- | ----------------------------------------- |
+| `intern()`        | Uses the String pool.                     |
+| `contentEquals()` | Compares with StringBuilder/StringBuffer. |
+| `join()`          | Joins many strings together.              |
+| `format()`        | Creates formatted text.                   |
+| `valueOf()`       | Converts another datatype into a String.  |
+
+
+
+
+Arrays (basic)
+
+| Function                 | Simple meaning                                     |
+| ------------------------ | -------------------------------------------------- |
+| `arr.length`             | Number of elements in the array. *(Not a method.)* |
+| `Arrays.toString(arr)`   | Prints the whole array nicely.                     |
+| `Arrays.sort(arr)`       | Sorts the array.                                   |
+| `Arrays.equals(a,b)`     | Checks whether two arrays are identical.           |
+| `Arrays.fill(arr,value)` | Fills every element with the same value.           |
+| `Arrays.copyOf(arr,n)`   | Makes a copy of an array.                          |
+
+| Function                | Meaning                          |
+| ----------------------- | -------------------------------- |
+| `Arrays.binarySearch()` | Searches a sorted array quickly. |
+| `Arrays.copyOfRange()`  | Copies only part of an array.    |
+| `Arrays.stream()`       | Converts array into a Stream.    |
+
+| Function                | Meaning                              |
+| ----------------------- | ------------------------------------ |
+| `Arrays.deepToString()` | Prints nested arrays.                |
+| `Arrays.deepEquals()`   | Compares nested arrays.              |
+| `Arrays.parallelSort()` | Multi-threaded sorting.              |
+| `Arrays.mismatch()`     | Finds where two arrays first differ. |
+
+
+
+
+If I were interviewing a Java Selenium QA (5–6 years)
+
+Looking at your current level and what Indian companies commonly ask, I'd expect you to know these without hesitation:
+
+Strings
+
+✅ length()
+
+✅ charAt()
+
+✅ substring()
+
+✅ contains()
+
+✅ replace()
+
+✅ split()
+
+✅ trim()
+
+✅ equals()
+
+✅ equalsIgnoreCase()
+
+✅ toUpperCase()
+
+✅ toLowerCase()
+
+✅ startsWith()
+
+✅ endsWith()
+
+Arrays
+
+✅ length
+
+✅ Arrays.sort()
+
+✅ Arrays.toString()
+
+Along with writing programs to:
+
+Find highest element
+Find lowest element
+Reverse an array
+Count duplicates
+Traverse using normal and enhanced for loops
+Search for an element
+Sort an array
+Find second largest element
+Merge two arrays (basic approach)
+For your preparation
+
+Since we've been practicing together from Day 1, I'd make this even smaller.
+
+Learn these 21 APIs really well. If you master them, you'll cover the vast majority of String and array work you'll encounter in Selenium automation and most QA interviews:
+
+Strings (15):
+
+length()
+charAt()
+substring()
+contains()
+equals()
+equalsIgnoreCase()
+replace()
+trim()
+split()
+toUpperCase()
+toLowerCase()
+startsWith()
+endsWith()
+indexOf()
+isEmpty()
+
+Arrays (6):
+
+length
+Arrays.toString()
+Arrays.sort()
+Arrays.equals()
+Arrays.copyOf()
+Arrays.fill()
+
