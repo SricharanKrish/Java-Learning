@@ -1,0 +1,172 @@
+public class Kuttystory {
+    public static void main(String[] args) {
+	
+	// LET US BEGIN OUR KUTTY STORY
+
+	// THE FIRST PROGRAM THAT IS TAUGHT TO US IS THE FAMOUS HELLO, WORLD!
+	
+	System.out.println("Hello, World!"); // idhu dhan pa Hello world
+	//system.out na system la irundhu output eh edhuthu print panu nu artham
+
+	// next
+
+
+	//IF YOU WANT TO TALK TO YOUR COMPUTER USING PROGRAM, YOU NEED FEW THINGS
+
+	// FIRST IS VARIABLES.. VARIABLES NA ENNA?
+	
+	// LETS SAY YOU WANT TO COOK A BIRYANI.. TO COOK IT YOU NEED VEGETABLES (CARROT, CAPSICUM, BEANS, PATTANI, CHILLI)
+	// RICE ETC. INDHA DIFFERENT TYPE OF INGRIDIENTS DHAN VARIABLES
+
+	// BUT NOT ALL VARIABLES ARE SAME LA? CARROT IS VEGETABLE, RICE IS STAPLE, SALT IS FOR TASTE..YOU STORE CARROTS IN
+	// FRIDGE, RICE IN A BAG, SALT IN ROOM TEMPERATURE IN AIR TIGHT BOTTLE
+
+	// JUST LIKE THAT PROGRAMMING HAS VARIABLES AND VARIABLES ARE STORED IN DIFFERENT DATA TYPES (CARROT VARIABLE IN 
+	// FRIDGE DATA TYPE, SALT VARIABLE IN BOTTLE DATA TYPE) ETC
+	
+	// ADHE POL NUMBERS VARIABLES AH WE STORE IN INT DATA TYPE, CHARACTER VARIABLE IN CHAR DATA TYPE, STRING VARIABLE
+	// IN STRING DATA TYPE, PULLI VECHA NUMBERS AH IN FLOAT OR DOUBLE DATA TYPE , PERIYA NUMBERS VARIABLE IN LONG DATA
+
+	// AND INDHA ELLA VARIABLES KUM LIMIT IRUKU PA.. 1 KG BOTTLE LA 2 KG SALT STORE PANA MUDIYADHU LA? LIKE THAT
+	// AND VARIABLES AH CORRECT AANA DATA TYPE LA STORE PANLA NA, ERROR VARUM.. SALT AH KONDU POI, FRIDGE LA
+	// STORE PANA MAATA LA. LIKE THAT
+
+	// IPO VA THALA VARIABLES AH EDPI STORE PANLAM NU PAAKALAM
+	
+	// FIRST NUMBER VARIABLES
+	int a = 10;
+	int b = 20;
+
+	// indha semi colon vandhu full stop.. end of sentence maari.. don't forget to add it
+
+	// AND EPDIYUM PANLAM
+	int c=30, d=40;
+	
+	float e = 198.817f;
+	double f = 617564.7151;	
+
+	short h = 121;
+	long i = 816536151L;
+
+	// indha float and long ku matum end la literal add pananum f and L nu.. because apdi dhan java va design
+	// panirkanga
+
+	// NEXT CHARACTER VARIABLES TO STORE WORDS, NUMBERS ETC ETC IN STRING FORMAT
+	
+	char j = 'A';
+	String k = "My name is Sri7";
+
+	// BOOLEAN VARIABLES.. TO CHECK IF SOMETHING IS TRUE OR FALSE.. LIE DETECTOR MAARI
+	boolean m = true;
+	Boolean n = false;
+	
+	// PURIDHU.. NUMBER AH APDE STORE PANOM, CHAR IN SINGLE QUOTE, STRING IN DOUBLE QUOTE, BOOLEAN AGAIN QUOTES
+	// EH ILLA.. IDHELLAM JAVA CONVENTIONS AND RULES..
+	
+	// NEXT OPERTORS. OKAY SO VARIABLES AH VAANGITU VANDHUTA.. YOU HAVE SALT, CARROTS, RICE.. 
+	// VAANGITU VANDHU CORRECT AH STORE UM PANITA IN DATA TYPES (BOTTLE, FRIDGE LA LAM).. SO THEY DON'T
+	// GET SPOILT
+	// NOW YOU WANT TO COOK BIRYANI..
+
+	// YOU HAVE TO WASH THE VEGETABLES, CUT THEM IN SMALLER PIECES, SOAK RICE, ADD SALT DURING COOKING
+	// INDHA ACTIONS LAM PANANUM NA, YOU NEED OPERATORS.. THEY ADD, SUBTRACT, DIVIDE, MULTIPLY,
+	// CHECK LOGIC - (ADD SALT && CHILI POWDER), ADD(OIL OR GHEE)
+	
+	// NEE CUT PANITU, THEN ELATHAYUM MIX PANALAM IPDI TO TURN EVERYTHING INTO 1 MIX AND THEN PUT IN PAN - C1
+	// YOU ARE ADDING EVERYTHING TOGETHER HERE
+	// FIRST ARITHMETIC OPERATORS
+	int a1 = 10, b1 = 20;
+	int c1 = a1 + b1;
+	System.out.println(c1);
+
+	//OR YOU CAN DIRECTLY CUT THEM IN AND PUT IT DIRECTLY INTO THE PAN - LIKE THIS.. NO NEED FOR C1 HERE
+	System.out.println(a1+b1);
+	
+	// ROMBA NERAYA COOK PANITA, KONJAM EDHUTHU THANIYA VEIKANUM NA, YOU CAN SUBTRACT
+	System.out.println(b1-a1);
+	
+	// AFTER COOKING, IF YOU WANT TO DIVIDE THE BIRYANI BETWEEN ALL PEOPLE
+	System.out.println(b1/a1); // quotient
+
+	// AFTER EVERYONE EATS, YOU WANNA CHECK HOW MUCH IS LEFT OVER
+	System.out.println(b1%a1); // remainder 
+
+	//IF EVERYONE BOUGHT WHAT THEY COOKED LIKE A POTLUCK, YOU CAN MULTIPLY
+	System.out.println(b1*a1);
+
+	// NEXT RELATIONAL OPERATORS / COMPARISON
+	// IF THERE TOO MUCH BEANS AND TOO LITTLE CARROTS, THE BIRYANI TASTE WILL BE OFF. TO CHECK IF SOMETHING
+	// IS HIGHER OR LOWER THAN THE OTHER THING, WE NEED TO COMPARE THEM FIRST..
+	// ADHUKU DHAN IRUKAN RELATIONAL OPERATOR
+
+	int z1 = 10;
+	int z2 = 20;
+	System.out.println(z2>z1); // greater than - true
+	System.out.println(z2>=z1); // greater than OR equal to - true
+	System.out.println(z2<z1); // lesser than - false
+	System.out.println(z2<=z1); // lesser than or equal to - false
+	System.out.println(z2==z1); // checks if both are equal - false
+	System.out.println(z2!=z1); // checks if both are NOT EQUAL - true
+
+	// LOGICAL OPERATORS
+	
+	
+	
+	// NEXT VANDHU CONDITIONS PA
+	// BEANS IVLO TIME COOK AANA DHAN, NEE HEAT AH REDUCE PANANUM TO ENSURE IT HAS COOKED WELL
+	// IDHU ORU CONDITION WHEN COOKING CORRECT AH? if beans has cooked well, turn off heat, else keep cooking
+	
+	int r = 90;
+	int s = 91;
+	
+	if(s>r) {
+		System.out.println("We cooked bruv");
+	}
+	else {
+		System.out.println("We are cooked bruv");
+	}
+	
+	int u = 92;
+	// double conditions kooda irukalam. like if beans cooked properly and if rice ready, mix beans with rice
+	// THIS IS CALLED NESTED IF
+	
+	if(s>r) {
+		if(u>s) {
+			System.out.println("We can eat");
+	}
+}
+	else {
+		System.out.println("Stay hungry you unskilled cook");
+	}
+
+	
+	// EACH DAY WE COOK DIFFERENT ITEMS, MONDAY NA BIRYANI, TUESDAY NA FRIED RICE ETC
+	// IDHA PANRATHUKU WE HAVE IF ELSE LADDER
+	
+	 int day = 1;
+		
+	if(day==1) {
+		System.out.println("Cook Biryani");
+}
+
+	else if(day==2) {
+		System.out.println("Cook Fried Rice");
+}
+	else if(day==3) {
+		System.out.println("Cook Sambar");
+}
+	else {
+		System.out.println("Patni kada Java full ah learn panra vara");
+}
+
+	// if else ladder alternative is switch statement
+	switch(day) {
+		case 1 : System.out.println("Lazy to cook");
+		break;
+		
+		case 2 : System.out.println("Coookkk");
+		break;
+		
+		default : System.out.println("Ada po pa");
+
+}
