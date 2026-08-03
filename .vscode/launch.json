@@ -1,0 +1,245 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Day13_Thiskeyword",
+            "request": "launch",
+            "mainClass": "Day13_Thiskeyword",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Day01_Hello",
+            "request": "launch",
+            "mainClass": "Day01_Hello",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day02_VariablesDataTypes",
+            "request": "launch",
+            "mainClass": "Day02_VariablesDataTypes",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day03_Operators",
+            "request": "launch",
+            "mainClass": "Day03_Operators",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day04_ConditionalStatements",
+            "request": "launch",
+            "mainClass": "Day04_ConditionalStatements",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day05_Loops",
+            "request": "launch",
+            "mainClass": "Day05_Loops",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day06_Arrays",
+            "request": "launch",
+            "mainClass": "Day06_Arrays",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day06_TwoDArrays",
+            "request": "launch",
+            "mainClass": "Day06_TwoDArrays",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day07_ArraysPartThree",
+            "request": "launch",
+            "mainClass": "Day07_ArraysPartThree",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day07_ArraysPartTwo",
+            "request": "launch",
+            "mainClass": "Day07_ArraysPartTwo",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day08_Strings",
+            "request": "launch",
+            "mainClass": "Day08_Strings",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day08_StringsPart2",
+            "request": "launch",
+            "mainClass": "Day08_StringsPart2",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day09_OopsConcept",
+            "request": "launch",
+            "mainClass": "Day09_OopsConcept",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day10_MethodParamterTypes",
+            "request": "launch",
+            "mainClass": "Day10_MethodParamterTypes",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day10_PartTwoGettersSetters",
+            "request": "launch",
+            "mainClass": "Day10_PartTwoGettersSetters",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day11_Constructor",
+            "request": "launch",
+            "mainClass": "Day11_Constructor",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day12_CallByReference",
+            "request": "launch",
+            "mainClass": "Day12_CallByReference",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day12_CallByValue",
+            "request": "launch",
+            "mainClass": "Day12_CallByValue",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Day12_PolymorphismOverloading",
+            "request": "launch",
+            "mainClass": "Day12_PolymorphismOverloading",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Enhancedloop",
+            "request": "launch",
+            "mainClass": "Enhancedloop",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Exp",
+            "request": "launch",
+            "mainClass": "Exp",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "OperationFury",
+            "request": "launch",
+            "mainClass": "OperationFury",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Day01",
+            "request": "launch",
+            "mainClass": "Practice_Day01",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Day02",
+            "request": "launch",
+            "mainClass": "Practice_Day02",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Day03",
+            "request": "launch",
+            "mainClass": "Practice_Day03",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Day04",
+            "request": "launch",
+            "mainClass": "Practice_Day04",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Day05",
+            "request": "launch",
+            "mainClass": "Practice_Day05",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Day06",
+            "request": "launch",
+            "mainClass": "Practice_Day06",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Practice_Day08",
+            "request": "launch",
+            "mainClass": "Practice_Day08",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Practicing_Notes",
+            "request": "launch",
+            "mainClass": "Practicing_Notes",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Prep1",
+            "request": "launch",
+            "mainClass": "Prep1",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Prep2",
+            "request": "launch",
+            "mainClass": "Prep2",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "TestNotepad",
+            "request": "launch",
+            "mainClass": "TestNotepad",
+            "projectName": "Java-Learning"
+        }
+    ]
+}
