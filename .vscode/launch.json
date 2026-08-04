@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Day13_Encapsulation",
+            "request": "launch",
+            "mainClass": "Day13_Encapsulation",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
             "name": "Day13_Thiskeyword",
             "request": "launch",
             "mainClass": "Day13_Thiskeyword",
