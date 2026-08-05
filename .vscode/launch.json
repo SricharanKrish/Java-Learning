@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Expr2",
+            "request": "launch",
+            "mainClass": "Expr2",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
+            "name": "Expr1",
+            "request": "launch",
+            "mainClass": "Expr1",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
             "name": "Day13_Encapsulation",
             "request": "launch",
             "mainClass": "Day13_Encapsulation",
