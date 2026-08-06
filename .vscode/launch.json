@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Expr3",
+            "request": "launch",
+            "mainClass": "Expr3",
+            "projectName": "Java-Learning"
+        },
+        {
+            "type": "java",
             "name": "Expr2",
             "request": "launch",
             "mainClass": "Expr2",
