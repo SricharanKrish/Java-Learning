@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Expr3 {
 
     public static void main(String[] args) {
@@ -61,8 +63,90 @@ public class Expr3 {
 
         System.out.println("\nDay4");
 
-         
+        float a1= 7.716f;
+        if(a1>=6) {
+            System.out.println("if condition passed");
+        }
+        else {
+            System.out.println("if condition failed");
+        }
+
+        float b1 = 7.891f;
+
+        if(a1>=6) {
+            if(b1>=9) {
+                System.out.println("Nested if condition passed");
+            }
+            else {
+                System.out.println("Nested if condition failed");
+            }
+        }
+
+        if(a1>=10) {
+            System.out.println("checking if else if condition. if condition passed.");
+        }
+        else if(a1>=6) {
+            System.out.println("if-else if condition passed");
+        }
+        else if(a1>=18) {
+            System.out.println("3rd if-else if condition passed");
+        }
+        else {
+            System.out.println("if-else if condition failed");
+        }
+        
+        int c1 = 4;
+        switch(c1) {
+            case 1 : System.out.println("Switch case 1 passed");
+            break;
+        
+            case 2 : System.out.println("Switch case 2 passed");
+            break;
+
+            default : System.out.println("All switch cases failed");
+        }
+
+        System.out.println("\nDay5 & Day6");
+
+        float arr[] = {102.91f,134.71f,99.87f,321.981f};
+        System.out.println("Printing arrays using normal for loop");
+        for(int i1=0;i1<arr.length;i1++){
+            System.out.println(arr[i1]);
+        } 
+
+      System.out.println("Printing arrays using Arrays.toString[arrayname]: "+Arrays.toString(arr));
+
+        System.out.println("Printing Arrays using Enhanced for loop");
+        for(float n:arr) {
+            // does float n = arr[i];
+            System.out.println(n);
+        }
+
+        int w = 409;
+        while(w<=413){
+            System.out.println("While condition repeats: "+w);
+            w++;
+        }
+        System.out.println("The last value of w is: "+w);
+    
+
+    int z=198;
+    do{
+        System.out.println("Do While will print once even if condition is false: "+z);
+        z++;
+    }while(z>200);
+    System.out.println(z);
+
+    int [][] r = {{100,200},{300,400},{500,600},{1000,1276}};
+
+    for(int i8=0;i8<r.length;i8++){
+        for(int i9=0;i9<r[i8].length;i9++){
+            System.out.println(r[i8][i9]);
+        }
+    }
+
+    System.out.println(r.length);
+    System.out.println(r[2].length);
 
     }
-    
 }
